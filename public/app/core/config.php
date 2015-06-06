@@ -29,16 +29,16 @@ class Config {
 		//database details ONLY NEEDED IF USING A DATABASE
 		define('DB_TYPE', 'mysql');
 		define('DB_HOST', 'localhost');
-		define('DB_NAME', 'schotchbox');
+		define('DB_NAME', 'scotchbox');
 		define('DB_USER', 'root');
 		define('DB_PASS', 'root');
-		define('PREFIX', 'ttc_');
+		define('PREFIX', '');
 
 		//set prefix for sessions
-		define('SESSION_PREFIX', 'ttc');
+		define('SESSION_PREFIX', '');
 
 		//optionall create a constant for the name of the site
-		define('SITETITLE', 'Transparent Trade Coffee');
+		define('SITETITLE', 'ATLOOP');
 
 		//turn on custom error handling
 		set_exception_handler('core\logger::exception_handler');
