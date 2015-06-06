@@ -1,3 +1,8 @@
+@import "../../../../bower_components/foundation/scss/foundation/components/global";
+
+$button-bg-color: #DF0A17;
+$button-bg-hover: #A8060E;
+
 #header-logo-large {
   margin-top: 10px !important;
 }
@@ -6,4 +11,58 @@
   margin-right: 10px !important;
   margin-top: -50px !important;
   width: 90% !important;
+}
+.text-wrapper {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(50%);
+  -ms-transform: translateY(50%);
+  transform: translateY(50%);
+}
+.button {
+  -webkit-border-radius: 3px !important;
+  -moz-border-radius: 3px !important;
+  border-radius: 3px !important;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2) !important;
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2) !important;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2) !important;
+  -webkit-transition-duration: 0.2s !important;
+  -moz-transition-duration: 0.2s !important;
+  transition-duration: 0.2s !important;
+}
+.button:hover {
+  text-decoration: none !important;
+  color: #FCFCFC !important;
+}
+.button:active {
+  -webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6) !important;
+  -moz-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6) !important;
+  box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6) !important;
+  color: #F1F1F1 !important;
+}
+@media #{$small-only} {
+  body {
+    background: url("../img/oop_background.png") no-repeat fixed !important;
+    background-size: 505px 700px !important;
+    -moz-background-size: 505px 700px !important;
+    -o-background-size: 505px 700px !important;
+    -webkit-background-size: 505px 700px !important;
+  }
+}
+@media #{$medium-up} {
+  body {
+    background: url("../img/OOP%20Webpage%20Background.jpg") no-repeat center center fixed !important;
+    background-size: 1920px 1080px !important;
+    -moz-background-size: 1920px 1080px !important;
+    -o-background-size: 1920px 1080px !important;
+    -webkit-background-size: 1920px 1080px !important;
+  }
+}
+body {
+  color: white !important;
+  font-family: helvetica, verdana, sans-serif;
+  h2, h4, h3, h5 {
+    color: white !important;
+    font-family: helvetica, verdana, sans-serif;
+  }
 }

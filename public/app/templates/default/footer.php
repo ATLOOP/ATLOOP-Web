@@ -23,6 +23,9 @@
     $("#swap").on("replace", function() {
         $(document).foundation();
     });
+    $(document).ready(function(){
+        $(document).foundation();
+    });
     $(document).foundation();
 </script>
 </body>

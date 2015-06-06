@@ -32,7 +32,7 @@
         </a>
     </div>
     <div class="hide-for-small-only row">
-        <div class="small-12 small-centered columns">
+        <div class="small-12 small-text-center columns">
             <a href="#">
                 <img id="header-logo-large"
                      src="<?php echo helpers\url::template_path() . 'img/OOP-Logo-wide-web.png'?>"/>
