@@ -25,5 +25,18 @@
     ?>
 </head>
 <body>
-
+    <div class="show-for-small-only">
+        <a href="#">
+            <img id="header-logo-small"
+                 src="<?php echo helpers\url::template_path() . 'img/OOP%20Logo.png'?>"/>
+        </a>
+    </div>
+    <div class="hide-for-small-only row">
+        <div class="small-12 small-centered columns">
+            <a href="#">
+                <img id="header-logo-large"
+                     src="<?php echo helpers\url::template_path() . 'img/OOP-Logo-wide-web.png'?>"/>
+            </a>
+        </div>
+    </div>
 <div class="container">
